@@ -30,8 +30,8 @@ normalized to [-1,&nbsp;1] and thus by dimensional analysis the numeric
 variables in this table have no unit. The `subject` and `activity` variables
 also have no unit because they are nominal variables.
 
-|   | Name | Description | Unit | Range |
-| -:|:---- |:----------- |:----:|:-----:|
+| Num | Name | Description | Unit | Range |
+| ---:|:---- |:----------- |:----:|:-----:|
 | 1 | subject | The id of the subject doing the activity. | No unit | 1 - 30 |
 | 2 | activity | The activity itself. | No unit | LAYING&nbsp;\| SITTING&nbsp;\| STANDING&nbsp;\| WALKING&nbsp;\| WALKING_DOWNSTAIRS&nbsp;\| WALKING_UPSTAIRS&nbsp;|
 | 3 | avg-tBodyAcc-mean()-X | Average of the means of body acceleration in the X-axis (time domain). | No unit | [-1, 1] |
