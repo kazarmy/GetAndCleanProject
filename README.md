@@ -6,7 +6,8 @@ Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Sma
 and produces as output a wide tidy data set with the average of the means and
 standard deviations of each measurement, for each activity and each subject. The
 tidy data set meets the principles of tidiness stated in [[1]](#ref1) and
-[[2]](#ref2), and it has a code book.
+[[2]](#ref2), and it has a [code
+book](https://github.com/kazarmy/GetAndCleanProject/blob/master/CodeBook.md).
 
 Regarding the "what columns are measurements on the mean and standard deviation"
 issue, I have decided to include only features with `mean()` or `std()` because
@@ -16,7 +17,9 @@ in Table 2 of [[3]](#ref3).
 ## Running the script
 
 1. Install the `dplyr` package if you have not already done so.
-1. Download `run_analysis.R` and the [HAR data set
+1. Download
+   [run_analysis.R](https://raw.githubusercontent.com/kazarmy/GetAndCleanProject/master/run_analysis.R)
+   and the [HAR data set
    zipfile](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
    into R's working directory.
 1. Execute the command `source("run_analysis.R")`.  The script will print
@@ -36,8 +39,9 @@ View(data)
 
 Note that despite `check.names = FALSE` above, the columns are accessible from
 R. You just need to surround the column names with backticks, e.g.
-``data$`avg-tBodyAcc-mean()-X` ``. The code book contains the rationale for the
-column names.
+``data$`avg-tBodyAcc-mean()-X` ``. The [code
+book](https://github.com/kazarmy/GetAndCleanProject/blob/master/CodeBook.md)
+contains the rationale for the column names.
 
 ## References
 
